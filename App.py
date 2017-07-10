@@ -26,9 +26,8 @@ def run():
     learning_rate = 0.0001
     number_of_iterations=1000
     b,m=gradient_descent(points,learning_rate,number_of_iterations)
-    print('{0},{1}'.format(b,m))
+    print('the b and m values for the best fitting y=mx+b line are b = {0}, m = {1}'.format(b,m))
 
-    
 if __name__ == '__main__':
     
     run()
