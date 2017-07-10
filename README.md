@@ -11,8 +11,12 @@ Currently output is the the values of best fitting "b" and "m" values in the y =
 
 To-Do:
 -add a visualizing function for the script
+
 -add an adaptation ability for the learning rate and the number of iterations to produce better values
+
 -add an error calculating function
+
 -provide a full gui with drag and drop functionality
+
 -speeding up the script for huge data sets using CUDA python for multiprocessing on GPUs
 
